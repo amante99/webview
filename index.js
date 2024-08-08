@@ -24,7 +24,7 @@ app.post('/webhook', async (req, res) => {
                 inline_keyboard: [
                     [{
                         text: 'Open Web View',
-                        web_app: { url: 'https://<YOUR_VERCEL_URL>/webview' } // Replace with your Vercel URL
+                        web_app: { url: 'https://webview-pi.vercel.app/webview' } // Replace with your Vercel URL
                     }]
                 ]
             };
